@@ -8,21 +8,21 @@ import numpy as np
 # beta_quarantine = 2.7
 # gamma = .03
 # n_days = 35
-# release_quarantine = 40*7
+# release_quarantine = 12*7
 
 # # my parameters 2 peaks
 # beta_quarantine = .24
 # beta_no_quarantine = 1.
 # gamma = .14
 # n_days = 500
-# release_quarantine = 40*7
+# release_quarantine = 12*7
 
 # my parameters 2 peaks faster
 beta_quarantine = .8
 beta_no_quarantine = 1.2
 gamma = .7
 n_days = 35*7
-release_quarantine = 20*7
+release_quarantine = 12*7
 
 
 dt=.1 # in days
@@ -30,7 +30,7 @@ beta = beta_quarantine
 t=0
 n = 9000000.  # Ceara population
 s = n
-i = 100.  # initially infected
+i = 7606.  # initially infected by beginning of May
 r = 0.
 n_steps = int(n_days/dt)
 
